@@ -1,0 +1,42 @@
+{
+  "0": {
+    "name": "Malignant neoplasm of liver and intrahepatic bile ducts",
+    "gpt_sum_all": "The disease_id 'Malignant neoplasm of liver and intrahepatic bile ducts' refers to a type of cancer that affects the liver and bile ducts, which is important information for health phenotyping tasks related to this condition."
+  },
+  "1": {
+    "name": "Other hernia of abdominal cavity without mention of obstruction or",
+    "gpt_sum_all": "The disease 'Other hernia of abdominal cavity without mention of obstruction' is a condition involving a protrusion of abdominal contents through a weak spot in the abdominal wall, which can be relevant for health phenotyping tasks."
+  },
+  "2": {
+    "name": "Cardiac dysrhythmias",
+    "gpt_sum_all": "Cardiac dysrhythmias refer to abnormal heart rhythms that can be important to consider in health phenotyping tasks related to cardiovascular conditions."
+  },
+  "3": {
+    "name": "Other forms of chronic ischemic heart disease",
+    "gpt_sum_all": "Other forms of chronic ischemic heart disease is a condition that affects the heart due to reduced blood flow, potentially leading to serious health complications."
+  },
+  "4": {
+    "name": "Other diseases of endocardium",
+    "gpt_sum_all": "The disease 'Other diseases of endocardium' involves various conditions affecting the endocardium, which is important information for health phenotyping tasks related to cardiovascular health."
+  },
+  "5": {
+    "name": "Malignant neoplasm of colon",
+    "gpt_sum_all": "The disease_id 'Malignant neoplasm of colon' refers to a type of cancer that affects the colon, which is important information for health phenotyping tasks related to this condition."
+  },
+  "6": {
+    "name": "Malignant neoplasm of colon",
+    "gpt_sum_all": "The disease_id 'Malignant neoplasm of colon' refers to a type of cancer that affects the colon, which is important information for health phenotyping tasks related to this condition."
+  },
+  "7": {
+    "name": "Other diseases of endocardium",
+    "gpt_sum_all": "The disease 'Other diseases of endocardium' involves various conditions affecting the endocardium, which could be important to consider in a health phenotyping task related to cardiovascular health."
+  },
+  "8": {
+    "name": "Septicaemia",
+    "gpt_sum_all": "Septicaemia is a serious condition characterized by the presence of pathogenic organisms or their toxins in the bloodstream, which can lead to severe illness and potentially life-threatening complications."
+  },
+  "9": {
+    "name": "Arterial embolism and thrombosis",
+    "gpt_sum_all": "Arterial embolism and thrombosis is a condition characterized by the blockage of blood flow in arteries due to the presence of a blood clot or foreign material, which can be crucial information for health phenotyping tasks."
+  }
+}

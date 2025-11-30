@@ -1,0 +1,52 @@
+{
+  "0": {
+    "name": "Malignant neoplasm of liver and intrahepatic bile ducts",
+    "model_1_output": "Malignant neoplasm of liver and intrahepatic bile ducts is a type of cancer that originates in the liver or bile ducts within the liver.",
+    "model_2_output": "Malignant neoplasm of liver and intrahepatic bile ducts refers to cancerous growths originating in the liver or the bile ducts within the liver, often associated with risk factors like chronic hepatitis, cirrhosis, or exposure to certain toxins."
+  },
+  "1": {
+    "name": "Other hernia of abdominal cavity without mention of obstruction or",
+    "model_1_output": "This condition involves a hernia in the abdominal cavity without any obstruction present.",
+    "model_2_output": "'Other hernia of abdominal cavity without mention of obstruction or gangrene' refers to a condition where an organ or tissue protrudes through a weak spot in the abdominal wall, excluding specified types of hernias, and does not involve blockage or tissue death."
+  },
+  "2": {
+    "name": "Cardiac dysrhythmias",
+    "model_1_output": "Cardiac dysrhythmias are abnormal heart rhythms that can cause the heart to beat too fast, too slow, or irregularly.",
+    "model_2_output": "Cardiac dysrhythmias are abnormalities in the heart's rhythm, resulting from irregular electrical activity, which can lead to inefficient blood pumping and potential complications like stroke or heart failure."
+  },
+  "3": {
+    "name": "Other forms of chronic ischemic heart disease",
+    "model_1_output": "Chronic ischemic heart disease refers to a condition where there is reduced blood flow to the heart muscle over time, leading to potential complications such as angina or heart attack.",
+    "model_2_output": "Other forms of chronic ischemic heart disease encompass conditions like coronary artery spasm and microvascular dysfunction, characterized by reduced blood flow to the heart muscle due to non-obstructive or dynamic coronary issues, leading to chest pain and potential myocardial injury."
+  },
+  "4": {
+    "name": "Other diseases of endocardium",
+    "model_1_output": "Other diseases of endocardium refer to a group of conditions affecting the inner lining of the heart that are not classified under specific endocardial disorders.",
+    "model_2_output": "'Other diseases of endocardium' encompass a range of non-specific or less common conditions affecting the inner lining of the heart, often involving inflammation, infection, or structural abnormalities not classified under major categories like endocarditis."
+  },
+  "5": {
+    "name": "Malignant neoplasm of colon",
+    "model_1_output": "Malignant neoplasm of colon is a type of cancer that forms in the tissues of the colon and can spread to other parts of the body if not treated early.",
+    "model_2_output": "Malignant neoplasm of colon, also known as colon cancer, is a cancerous growth in the large intestine characterized by uncontrolled cell proliferation, often presenting with symptoms like rectal bleeding, abdominal pain, and changes in bowel habits."
+  },
+  "6": {
+    "name": "Malignant neoplasm of colon",
+    "model_1_output": "Malignant neoplasm of colon is a type of cancer that forms in the tissues of the colon and can spread to other parts of the body if not treated.",
+    "model_2_output": "Malignant neoplasm of colon, also known as colorectal cancer, is a cancerous growth in the colon or rectum that can invade nearby tissues and spread to other parts of the body if not treated early."
+  },
+  "7": {
+    "name": "Other diseases of endocardium",
+    "model_1_output": "Other diseases of endocardium refer to a group of conditions affecting the inner lining of the heart, leading to various symptoms and complications.",
+    "model_2_output": "'Other diseases of endocardium' encompass a range of non-specific or less common disorders affecting the inner lining of the heart, often involving inflammation, infection, or structural abnormalities not classified under major categories like endocarditis."
+  },
+  "8": {
+    "name": "Septicaemia",
+    "model_1_output": "Septicaemia is a serious bloodstream infection that can lead to sepsis and organ failure if not treated promptly.",
+    "model_2_output": "Septicaemia, also known as sepsis, is a life-threatening condition caused by the body's overwhelming response to infection, leading to systemic inflammation, organ dysfunction, and potential septic shock."
+  },
+  "9": {
+    "name": "Arterial embolism and thrombosis",
+    "model_1_output": "Arterial embolism and thrombosis is a condition characterized by blockages in the arteries due to blood clots or other foreign substances.",
+    "model_2_output": "Arterial embolism and thrombosis is a condition characterized by the sudden blockage of an artery by a blood clot or embolus, leading to reduced blood flow and potential tissue damage or organ dysfunction."
+  }
+}
