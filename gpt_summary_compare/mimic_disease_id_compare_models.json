@@ -1,0 +1,52 @@
+{
+  "0": {
+    "name": "Malignant neoplasm of liver and intrahepatic bile ducts",
+    "model_1_summary": "The disease_id 'Malignant neoplasm of liver and intrahepatic bile ducts' refers to a type of cancer that affects the liver and bile ducts, which is important information for health phenotyping tasks.",
+    "model_2_summary": "The disease 'Malignant neoplasm of liver and intrahepatic bile ducts' refers to cancerous growths in the liver and the bile ducts within it, which is critical for identifying related symptoms, risk factors, and treatment options in health phenotyping tasks."
+  },
+  "1": {
+    "name": "Other hernia of abdominal cavity without mention of obstruction or",
+    "model_1_summary": "The disease 'Other hernia of abdominal cavity without mention of obstruction' is a condition involving the protrusion of abdominal contents through a weak spot in the abdominal wall, without any blockage.",
+    "model_2_summary": "The disease identified as 'Other hernia of abdominal cavity without mention of obstruction or' refers to a condition where a hernia is present in the abdominal cavity but does not involve any obstruction or gangrene, which is critical for accurate health phenotyping and classification in medical records."
+  },
+  "2": {
+    "name": "Cardiac dysrhythmias",
+    "model_1_summary": "Cardiac dysrhythmias refer to abnormal heart rhythms that can be important to consider in health phenotyping tasks related to cardiovascular conditions.",
+    "model_2_summary": "Cardiac dysrhythmias, also known as arrhythmias, refer to a group of conditions characterized by irregular heartbeats, which can disrupt the normal rhythm of the heart and may lead to serious health complications if not managed properly."
+  },
+  "3": {
+    "name": "Other forms of chronic ischemic heart disease",
+    "model_1_summary": "The disease 'Other forms of chronic ischemic heart disease' is relevant for health phenotyping tasks related to chronic heart conditions caused by reduced blood flow to the heart muscle.",
+    "model_2_summary": "'Other forms of chronic ischemic heart disease' encompasses a range of conditions characterized by reduced blood flow to the heart over an extended period, often leading to symptoms like chest pain and fatigue, which are critical to identify for accurate health phenotyping and patient management."
+  },
+  "4": {
+    "name": "Other diseases of endocardium",
+    "model_1_summary": "The disease 'Other diseases of endocardium' involves various conditions affecting the endocardium, which is important information for health phenotyping tasks related to cardiovascular health.",
+    "model_2_summary": "'Other diseases of endocardium' refers to a category of conditions affecting the inner lining of the heart, which may include non-specific or less common disorders of the endocardium, and is critical for identifying related symptoms and risk factors in health phenotyping tasks."
+  },
+  "5": {
+    "name": "Malignant neoplasm of colon",
+    "model_1_summary": "The disease_id 'Malignant neoplasm of colon' refers to a type of cancer that affects the colon, which is important information for health phenotyping tasks related to this condition.",
+    "model_2_summary": "Malignant neoplasm of colon, commonly known as colon cancer, is a critical health condition characterized by the uncontrolled growth of cells in the colon, often requiring early detection and intervention for effective management in health phenotyping tasks."
+  },
+  "6": {
+    "name": "Malignant neoplasm of colon",
+    "model_1_summary": "The disease_id 'Malignant neoplasm of colon' refers to a type of cancer that affects the colon, which is important information for health phenotyping tasks related to this condition.",
+    "model_2_summary": "Malignant neoplasm of colon, commonly known as colon cancer, is a critical health condition characterized by the uncontrolled growth of cells in the colon, often requiring early detection and intervention for effective management in health phenotyping tasks."
+  },
+  "7": {
+    "name": "Other diseases of endocardium",
+    "model_1_summary": "The disease 'Other diseases of endocardium' involves various conditions affecting the endocardium, which is important information for health phenotyping tasks related to cardiovascular health.",
+    "model_2_summary": "'Other diseases of endocardium' refers to a category of conditions affecting the inner lining of the heart, which may include non-specific or less common disorders of the endocardium, and is critical to identify in health phenotyping for accurate diagnosis and management of related cardiovascular issues."
+  },
+  "8": {
+    "name": "Septicaemia",
+    "model_1_summary": "Septicaemia is a serious condition characterized by the presence of pathogenic organisms or their toxins in the bloodstream, which can lead to severe systemic infection and potentially life-threatening complications.",
+    "model_2_summary": "Septicaemia, also known as sepsis, is a life-threatening condition caused by the body's overwhelming response to infection, leading to potential organ dysfunction and requiring urgent medical attention for accurate phenotyping and management in health-related tasks."
+  },
+  "9": {
+    "name": "Arterial embolism and thrombosis",
+    "model_1_summary": "Arterial embolism and thrombosis is a condition characterized by the blockage of blood vessels due to the presence of a clot or foreign material, which can lead to serious health complications.",
+    "model_2_summary": "Arterial embolism and thrombosis is a condition characterized by the blockage of an artery, either by a blood clot (thrombosis) or a dislodged clot or other material (embolism), which can lead to severe tissue damage or organ dysfunction due to restricted blood flow."
+  }
+}
