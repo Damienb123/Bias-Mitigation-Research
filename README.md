@@ -66,4 +66,11 @@ The purpose for developing a QA Agent pipeline is to design and evaluate a Large
 
 ## Reference
 ### RAM-EHR
-Xu, R., Shi, W., Yu, Y., Zhuang, Y., Jin, B., Wang, M. D., Ho, J. C., & Yang, C. (2024). RAM-EHR: Retrieval Augmentation Meets Clinical Predictions on Electronic Health Records. ArXiv.org. https://arxiv.org/abs/2403.00815
+```
+@inproceedings{xu2024ram,
+  title={RAM-EHR: Retrieval Augmentation Meets Clinical Predictions on Electronic Health Records},
+  author={Xu, Ran and Shi, Wenqi and Yu, Yue and Zhuang, Yuchen and Jin, Bowen and Wang, May D and Ho, Joyce C and Yang, Carl},
+  booktitle={Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics},
+  year={2024}
+}
+```
