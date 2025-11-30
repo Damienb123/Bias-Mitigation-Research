@@ -1,7 +1,7 @@
 # Bias-Mitigation-Research
 
 ## Overview
-This research extends components of the **RAM-EHR** framework (MIT License), which provides tools for retrieving and summarizing medical concepts from EHR-linked datasets. Building upon this foundation, the project investigates how **Retrieval-Augmented Generation (RAG)** can be integrated into machine learning workflows to:
+This research extends components of the **RAM-EHR** framework (MIT License) as part of my Independent study with The University of Texas at San Antonio, which provides tools for retrieving and summarizing medical concepts from EHR-linked datasets. Building upon this foundation, the project investigates how **Retrieval-Augmented Generation (RAG)** can be integrated into machine learning workflows to:
 
 - Reduce demographic bias  
 - Improve the reliability of clinical predictions  
