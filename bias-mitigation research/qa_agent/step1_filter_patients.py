@@ -1,17 +1,10 @@
-# focuses on filtering patient data by age_group, gender, race, zip
-
-# import for pandas
 import pandas as pd
+# extract patient info iteratively through each column of data
+def filter_patients(df, patient_info):
+    cohort = df.copy()
+    # patient demographics captured are assigned for each of the 4 info pieces
+    for key in ["SEX_CODE", "PAT_AGE", "RACE", "PAT_ZIP"]:
+        if key in patient_info and patient_info[key]:
+            cohort = cohort[cohort[key] == patient_info[key]]
 
-
-# read csv data for patient info
-def pd.read_csv("data/patients.csv")
-
-# only apply filters that exist in the input
-# input patient data for given patient in their grouping
-for key in ["age_group", "gender", "race", "zip"]:
-    if key in patient_info:
-        df = df[df[key] == patient.info[key]]
-
-# return file
-return df
+    return cohort
