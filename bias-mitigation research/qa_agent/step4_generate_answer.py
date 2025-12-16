@@ -2,15 +2,18 @@
 from openai import AzureOpenAI
 import os
 # Environment variable setup located in AzureOpenAI
+# For this research, gpt-35-turbo is used for summarization
 client = AzureOpenAI (
     api_key=os.getenv("AZURE_OPENAI_API_KEY"),
     api_version=os.getenv("AZURE_OPENAI_API_VERSION"),
     azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
 )
 
-DEPLOYMENT = os.getenv("AZURE_OPENAI_ENGINE")
-
-def build_concluding_answer(patient_info, keywords, definitions):
+DEPLOYMENT = os.getenv("AZURE_OPENAI_ENGINE") # model used
+# generate_answer is used now for a general understanding of the function
+# gathers patient demographics, top q keywords, and definitions
+def generate_answer(patient_info, keywords, definitions):
+    
     def_text = "\n".join([f"- {k}: {v}" for k,v in definitions.items()])
     # prompt the agent to list medical keys from the patient data as well as
     # generating top 5 medical procedures the patient will most likely have done
