@@ -23,8 +23,8 @@ client_2 = AzureOpenAI(
 )
 
 clients = {
-    "model_1": client_1,  # GPT-3.5-Turbo
-    "model_2": client_2,  # Grok-3
+    "model_1": client_1,  # gpt-35-turbo
+    "model_2": client_2,  # grok-3
 }
 
 deployments = {
@@ -194,3 +194,4 @@ with open(file_name, "w") as f_out:
     json.dump(return_dict, f_out, indent=2)
 
 print(f"\n Results saved to {file_name}")
+
