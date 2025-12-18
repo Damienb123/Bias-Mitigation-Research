@@ -22,6 +22,7 @@ Additionally, this project compares **text-based LLM outputs** and **tabular/gra
 ![Status](https://img.shields.io/badge/status-In%20Progress-yellow)
 
 ## Tasks Evaluated Throughout Research
+You can find my work in the bias-mitigation research folder!
 
 ### Model to Model Comparison
 #### Purpose
