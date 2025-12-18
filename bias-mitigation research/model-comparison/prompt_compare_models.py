@@ -8,23 +8,23 @@ import time
 client_gpt35 = AzureOpenAI(
     api_key=os.getenv("AZURE_OPENAI_API_KEY_1"),
     api_version=os.getenv("AZURE_OPENAI_API_VERSION"),
-    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT_1"),  # GPT-3.5 endpoint
+    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT_1"),  # gpt-35-turbo endpoint
 )
 
 client_grok3 = AzureOpenAI(
     api_key=os.getenv("AZURE_OPENAI_API_KEY_2"),
     api_version=os.getenv("AZURE_OPENAI_API_VERSION"),
-    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT_2"),  # Grok-3 endpoint
+    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT_2"),  # grok-3 endpoint
 )
 
 # --- Map each model to its client and deployment ---
 deployments = {
     "model_1": {
-        "name": os.getenv("AZURE_OPENAI_ENGINE_1"),  # GPT-3.5 deployment name
+        "name": os.getenv("AZURE_OPENAI_ENGINE_1"),  # gpt-35-turbo endpoint
         "client": client_gpt35,
     },
     "model_2": {
-        "name": os.getenv("AZURE_OPENAI_ENGINE_2"),  # Grok-3 deployment name
+        "name": os.getenv("AZURE_OPENAI_ENGINE_2"),  # grok-3 endpoint
         "client": client_grok3,
     },
 }
@@ -90,3 +90,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
