@@ -92,9 +92,37 @@ The purpose for developing a QA Agent pipeline is to design and evaluate a Large
 ```
 
 ### How to Run
-1. Ensure you are using the appropriate environment variables are integrated in step 4 that are found when using Azure OpenAI
-2. The steps will pull data from an existing dataset "preprocessed_patients_data_data_2000_1.csv"
-3. run
+1. Locate the Folder bias-mitigation research that stores the qa_agent workflows, the dataset that is used for this QA agent is loadable from the bias-mitigation research folder in which it is stored labeled as "preprocessed_patients_data_2000_1.csv".
+2. Set your environment variables (Azure OpenAI)
+### Windows 
+```
+$env:AZURE_OPENAI_API_KEY="your-ai-model-key"
+$env:AZURE_OPENAI_ENDPOINT="https://your-endpoint.azure.com/"
+$env:AZURE_OPENAI_API_VERSION="YYYY-DD-MM-preview"
+$env:AZURE_OPENAI_ENGINE="your-ai-model"
+```
+
+### MacOS / Linux (Fill in)
+```
+
+```
+4. Run the QA Agent pipeline
+```
+python run_pipeline.py
+```
+- the output will be console printed structured QA results
+At the end of the output, there will be a line that states a saved file:
+```
+pipeline_analysis/pipeline_outputs.pkl
+```
+- This file will show graphical bias related anaylsis
+5. Run Graphical Bias Analysis
+Generates visualizations used to analyze bias and interpretability.
+```
+cd pipleine_analysis
+python graphical_anaylsis.py
+```
+6. run
 ```
 python run_pipeline.py 
 ```
@@ -113,20 +141,6 @@ Patient-Level Bias Radar Charts
 Textual outputs hide bias, therefore difficult to spot overrepresentation
 Graphs reveal demographic skew instantly
 Visualizations help clinicians interpret model behavior without reading long text
-
-### How to Run
-1. After executing "run_pipeline.py" at the bottom of the of output it will display:
-
- **Saved pipeline outputs to pipeline_outputs.pkl
- You may now run: pipeline_analysis/graphical_analysis.py**
-
-2. Locate the pipeline_analysis folder and ensure the "pipeline_outputs.pkl was loaded in that same folder
-3. Run (in the same folder of pipeline_analysis folder):
-```
-python graphical_analysis.py
-```
-which will then output all graphical representations from the QA textual output.
-
 
 ## Conclusion
 This research shows that:
