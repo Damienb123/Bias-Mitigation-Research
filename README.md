@@ -91,9 +91,10 @@ The purpose for developing a QA Agent pipeline is to design and evaluate a Large
 
 ```
 
-### How to Run
+### How to Run QA agent worflow with Bias Analysis
 1. Locate the Folder bias-mitigation research that stores the qa_agent workflows, the dataset that is used for this QA agent is loadable from the bias-mitigation research folder in which it is stored labeled as "preprocessed_patients_data_2000_1.csv".
 2. Set your environment variables (Azure OpenAI)
+To find how the the environment variables are initializede and called from the client, you'll find the code at the top of this file directly in this location "/bias-mitigation research/step4_generate_answer.py"
 ### Windows 
 ```
 $env:AZURE_OPENAI_API_KEY="your-ai-model-key"
